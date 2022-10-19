@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API PIXABAY</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="css/tailwind.min.css" />
+  </head>
+  <body>
+    <section>
+
+
+        <h1 class="text-center text-3xl text-white my-10 font-bold uppercase">Buscador de Imágenes Pixabay</h1>
+
+        <div class="buscador max-w-lg mx-auto ">
+            <form id="formulario" class="">
+                <div>
+                    <label 
+                        class="block font-bold uppercase"
+                    >Búsqueda</label>
+                    <input 
+                        type="text"
+                        class="mt-3 rounded w-full p-2 input "
+                        placeholder="Ejemplo: Café o Futbol"
+                        id="busqueda"
+                    />
+    
+                    <input 
+                        type="submit"
+                        value="Buscar Imágenes"
+                        class="mt-5 w-full cursor-pointer font-bold  rounded btn"
+                    >   
+                </div>
+            </form>
+        </div>
+    
+        <div id="resultado" class="container mx-auto mt-10  flex flex-wrap"></div>
+    
+        <div id="paginacion" class="container mx-auto mb-10 text-center justify-center">
+            
+        </div>
+
+      <!-- <form id="formulario" class="contenedor" autocomplete="off" action="#">
+        <label for="">Busqueda:</label>
+        <input
+          type="text"
+          class="input"
+          id="busqueda"
+          placeholder="Ejemplo: cafe,futbol,etc.."
+        />
+        <input type="submit" value="Buscar" class="btn" />
+      </form>
+
+      <div id="resultado" class="resultado"></div>
+
+      <div id="paginacion" class=""></div>
+    </section> -->
+
+    <script src="js/app.js"></script>
+    <script src="https://kit.fontawesome.com/8e8168ffda.js" crossorigin="anonymous"></script>
+
+  </body>
+</html>
